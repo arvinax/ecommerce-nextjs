@@ -56,7 +56,7 @@ const ProductDetails = ({ product, products }) => {
             </div>
             <p>(20)</p>
           </div>
-          <h4>Details: </h4>
+          <p>Details: </p>
           <p>{details}</p>
           <p className='price'>${price}</p>
           <div className='quantity'>
