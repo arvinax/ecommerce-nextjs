@@ -123,6 +123,7 @@ export const getStaticPaths = async () => {
 };
 // get static props
 export const getStaticProps = async ({ params: { slug } }) => {
+  // fetch from sanity 
   const query = `*[_type == "product" && slug.current == '${slug}'][0]`;
   const productsQuery = '*[_type == "product"]';
 
