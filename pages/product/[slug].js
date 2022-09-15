@@ -99,7 +99,7 @@ const ProductDetails = ({ product, products }) => {
     </div>
   );
 };
-
+// get static paths
 export const getStaticPaths = async () => {
   const query = `*[_type == "product"] {
       slug {
