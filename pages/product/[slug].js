@@ -109,6 +109,7 @@ export const getStaticPaths = async () => {
       }
     }
     `;
+  // get products
 
   const products = await client.fetch(query);
 
